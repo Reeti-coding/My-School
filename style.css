@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(darkorchid, darkmagenta, darkturquoise);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+#marqueestyle {
+
+    background-image: linear-gradient(pink, lavender, skyblue);
+    color: crimson;
+    font-family: cursive;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+}
+
+#map iframe {
+    width: 100%;
+}
+
+p {
+    color: crimson;
+    font-family: cursive;
+    white-space: pre-line;
+}
+
+.achievment_head {
+    font-size: 30px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: cursive;
+    display: inline-block;
+}
+
+.achievment_head i {
+    float: right;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.campus_life_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid skyblue;
+}
+
+.campus_life_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.campus_life_mainDiv hr {
+    width: 100%;
+}
+
+.campus_life_mainDiv h5,
+.campus_life_mainDiv p {
+    margin-left: 20px;
+}
+
+#Details h3 {
+    display: inline;
+}
+
+.whats_new_li {
+    margin-top: 13px;
+    font-size: 40px;
+}
+
+.whats_new_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+    font-size: 40px;
+}
+
+.whats_new_li p {
+    margin-top: 10px;
+    font-size: 40px;
+
+}
+
+.whats_new_li img {
+    border-radius: 25px;
+    font-size: 40px;
+
+}
